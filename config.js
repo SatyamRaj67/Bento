@@ -33,13 +33,13 @@ const CONFIG = {
   defaultLongitude: '85.000237',
 
   // Autochange
-  autoChangeTheme: true,
+  autoChangeTheme: false,
 
   // Autochabge by OS
   changeThemeByOS: false, 
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
-  changeThemeByHour: true,
+  changeThemeByHour: false,
   hourDarkThemeActive: '18:30',
   hourDarkThemeInactive: '07:00',
 
@@ -117,20 +117,20 @@ const CONFIG = {
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Discord',
+        link: 'https://discord.com/app/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Canva',
+        link: 'https://canva.com/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Imgur',
+        link: 'https://imgur.com/',
       },
       {
         name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        link: 'https://webk.telegram.org/',
       },
     ],
   },
